@@ -4,7 +4,7 @@ let variableTwo = 5;
 // addition
 function sum (x, y) {
         return x + y;
-}
+};
 
 console.log(sum(variableOne, variableTwo));
 
@@ -12,7 +12,7 @@ console.log(sum(variableOne, variableTwo));
 // subtraction
 function takeAway (a, b) {
     return a - b;
-}
+};
 
 console.log(takeAway(variableOne, variableTwo));
 
@@ -20,7 +20,7 @@ console.log(takeAway(variableOne, variableTwo));
 // multiplication
 function multiply (c, d) {
     return c * d;
-}
+};
 
 console.log(multiply(variableOne, variableTwo));
 
@@ -28,7 +28,7 @@ console.log(multiply(variableOne, variableTwo));
 // Division
 function division (e, f) {
     return e / f;
-}
+};
 
 console.log(division(variableOne, variableTwo));
 
@@ -38,22 +38,22 @@ console.log(division(variableOne, variableTwo));
 
 
 // addition 
- let sum = (x, y) =>  x + y;
+ let add = (x, y) =>  x + y;
 
 
-console.log(sum(variableOne, variableTwo));
-
-// addition 
-let multiply = (x, y) =>  x * y;
-
-
-console.log(multiply(variableOne, variableTwo));
+console.log(add(variableOne, variableTwo));
 
 // addition 
-let division = (x, y) =>  x / y;
+let times = (x, y) =>  x * y;
 
 
-console.log(division(variableOne, variableTwo));
+console.log(times(variableOne, variableTwo));
+
+// addition 
+let divide = (x, y) =>  x / y;
+
+
+console.log(divide(variableOne, variableTwo));
 
 // addition 
 let subtraction = (x, y) =>  x - y;
